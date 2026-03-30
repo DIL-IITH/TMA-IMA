@@ -1,0 +1,2 @@
+TOKEN_LENGTH = 77
+DOWNLOAD_ROOT='cache/clip/'
