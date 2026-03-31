@@ -56,3 +56,33 @@ We use the following datasets for our experiments.
 - [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/download/dtd-r1.0.1.tar.gz)
 - [EuroSAT](http://madm.dfki.de/files/sentinel/EuroSAT.zip)
 - [UCF101](https://drive.google.com/file/d/10Jqome3vtUA2keJkNanAiFpgbyC9Hc2O/view?usp=sharing)
+
+## Getting Started
+Follow these instructions to get the project working on your computer.
+
+### What You'll Need
+Make sure you have the following installed on your system first:
+- Git
+- Either Aanconda
+
+### Installation
+**1.** Clone the repository
+```bash
+git clone <repo_url>
+cd <repo_folder>
+```
+
+**2.** Create a new conda environment
+```bash
+conda create -n <name> python=3.x
+```
+
+**3.** Activate the environment
+```bash
+conda activate <name>
+```
+
+**4.** Install the required libraries
+```bash
+pip install -r requirements.txt
+```
